@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_marginTop="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/busicon"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StoPoint"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView 
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An All New Experience. Guaranteed."
+        android:textStyle="italic"
+        android:typeface="sans"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ImageView
+        android:id="@+id/bus1"
+        android:layout_width="76dip"
+        android:layout_height="76dip"
+        android:layout_marginLeft="240dp"
+        android:src="@drawable/pict" />
+
+   />
+</LinearLayout>
