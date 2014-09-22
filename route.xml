@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Where are you, Punekar? " />
+<!-- 
+    <Spinner
+        android:id="@+id/spinSource"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:background = "@android:color/white"
+        android:spinnerMode="dropdown"
+        />
+ -->
+    <AutoCompleteTextView android:id="@+id/acSrc"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:completionThreshold="1"
+/>
+    <TextView
+        android:id="@+id/tvDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Where do you want to go? " 
+        android:layout_marginTop="30dp"/>
+
+   <AutoCompleteTextView android:id="@+id/acDest"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:completionThreshold="1"
+/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Find My Route"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/bFMR"
+         />
+    
+</LinearLayout>
